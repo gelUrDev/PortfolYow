@@ -1,11 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Quicksand:wght@300..700&display=swap");
 :root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: "Inter", system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #0b1120;
+  background-color: hsl(223, 49%, 8%);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -17,4 +19,54 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+.gradient {
+  position: absolute;
+
+  left: -10%;
+  transform: translatey(-30%);
+  z-index: -2;
+}
+.gradient2 {
+  position: absolute;
+
+  right: -10%;
+  top: 10%;
+  transform: translatey(-10%);
+  z-index: -1;
+}
+
+.margin {
+  margin: 0 4%;
+  margin-top: 160px;
+  z-index: 1;
+}
+.greet {
+  font-size: 2.3em;
+}
+
+.greet h1 {
+  line-height: 1.02em;
+  padding-bottom: 0.4em;
+  font-weight: 700;
+}
+.greet h2 {
+  font-family: "quicksand", sans-serif;
+  font-weight: 500;
+  font-size: 0.8em;
+  color: #07b6d5;
+  padding-bottom: 0.6em;
+}
+
+.greet h2 span {
+  color: #9ca3af;
+}
+
+.greet p {
+  font-family: quicksand, sans-serif;
+  font-size: 0.5em;
+  width: 40%;
+  font-weight: 300;
 }
