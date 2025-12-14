@@ -3,7 +3,7 @@ import { createRoot } from "react-dom/client";
 
 import NavBar from "../Components/NavBar";
 import RadialGradient from "../Components/DesignComponents/RadialGradient";
-
+import PrimaryButton from "../Components/PrimaryButton";
 import "./PagesStyle/Home.css";
 
 createRoot(document.getElementById("root")).render(
@@ -23,15 +23,16 @@ createRoot(document.getElementById("root")).render(
           Hi, I'm <br /> Argel Balani
         </h1>
         <h2>
-        Front-end Developer <span>& UI/UX Designer</span>
-      </h2>
-      <p>
-        Creative and detail-oriented IT student
-         passionate about building user-friendly, 
-         visually appealing, and responsive web experiences.
-      </p>
+          Front-end Developer <span>& UI/UX Designer</span>
+        </h2>
+        <p>
+          Creative and detail-oriented IT student passionate about building
+          user-friendly, visually appealing, and responsive web experiences.
+        </p>
+        <div className="heroBtns">
+          <PrimaryButton BtnTxt="Hire Me!" />
+        </div>
       </div>
-      
     </div>
   </StrictMode>
 );
