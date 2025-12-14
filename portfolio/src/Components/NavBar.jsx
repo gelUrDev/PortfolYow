@@ -18,7 +18,7 @@ function NavBar() {
         </ul>
       </div>
       <div className="ContactBtn">
-        <PrimaryButton Btntxt="Contact Me" />
+        <PrimaryButton BtnTxt="Contact Me" />
       </div>
     </div>
   );
