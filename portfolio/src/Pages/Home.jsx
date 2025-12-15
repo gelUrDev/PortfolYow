@@ -32,6 +32,21 @@ createRoot(document.getElementById("root")).render(
         <div className="heroBtns">
           <PrimaryButton BtnTxt="Hire Me!" />
         </div>
+        <hr className="thinLine" />
+        <div className="greetInfo">
+          <div className="study">
+            <h2>3+</h2>
+            <p>YEARS OF STUDY</p>
+          </div>
+          <div className="certs">
+            <h2>3</h2>
+            <p>CERTIFICATIONS</p>
+          </div>
+          <div className="elites">
+            <h2>ELITES</h2>
+            <p>OFFICER</p>
+          </div>
+        </div>
       </div>
     </div>
   </StrictMode>

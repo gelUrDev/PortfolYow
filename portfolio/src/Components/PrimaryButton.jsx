@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 
-const PrimaryButton = ({BtnTxt}) => {
+const PrimaryButton = ({ BtnTxt }) => {
   return (
     <StyledWrapper>
       <button className="boton-elegante">{BtnTxt}</button>
