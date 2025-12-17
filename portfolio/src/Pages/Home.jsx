@@ -4,7 +4,7 @@ import { createRoot } from "react-dom/client";
 import NavBar from "../Components/NavBar";
 import RadialGradient from "../Components/DesignComponents/RadialGradient";
 import PrimaryButton from "../Components/PrimaryButton";
-import Services from "../Components/Services.jsx"
+import Services from "../Components/Services.jsx";
 import "./PagesStyle/Home.css";
 
 createRoot(document.getElementById("root")).render(
@@ -55,7 +55,10 @@ createRoot(document.getElementById("root")).render(
           <div className="heroImg">
             <div className="heroImg">
               <div className="heroImg">
-                <img src="https://drive.google.com/file/d/19ag2Urth3MeaSfIlRdptDbBApMpuxmRy/view?usp=sharing" alt="" />
+                <img
+                  src="https://scontent.fcrk1-3.fna.fbcdn.net/v/t39.30808-6/527931502_770641445523861_7170122326929535224_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeEPQd_Xuv8XTa-OWJEbwZoVEUZvMUg3W1gRRm8xSDdbWOLnmHZykzcCwrIuyP0F9DFv-FZrsQbl2WpNv4J5wdwF&_nc_ohc=ejsROD1U7VEQ7kNvwHVRfOq&_nc_oc=AdlT2n-xTUKJyx_PA7_fWGPd-lUkZSKDvu1XPc8Rj7VohhvTj-PoD-_ZObVSBt4wJy4&_nc_zt=23&_nc_ht=scontent.fcrk1-3.fna&_nc_gid=Pjcrz4BCu1c7sa8slxhqTQ&oh=00_AfnVTd2mTfEhci0He44qOjDSOBX2tyZTp_29I8giNqLdSg&oe=69488F15"
+                  alt=""
+                />
               </div>
             </div>
           </div>
