@@ -1,5 +1,7 @@
 import "./ComponentStyle/Services.css";
-import Card from "./Card.jsx";
+import { FaFigma } from "react-icons/fa";
+import { GoBrowser } from "react-icons/go";
+import { MdOutlinePalette } from "react-icons/md";
 
 function Services() {
   return (
@@ -10,7 +12,7 @@ function Services() {
       </div>
       <div className="cardCont">
         <div className="serviceCard">
-          <div className="logo"></div>
+          <div className="logo"><GoBrowser className="browserIcon" /></div>
           <div className="texts">
             <h3>Front-end Development</h3>
             <p>
@@ -20,7 +22,7 @@ function Services() {
           </div>
         </div>
         <div className="serviceCard">
-          <div className="logo"></div>
+          <div className="logo"><FaFigma className="figmaIcon" /></div>
           <div className="texts">
             <h3>UI/UX</h3>
             <p>
@@ -30,7 +32,7 @@ function Services() {
           </div>
         </div>
         <div className="serviceCard">
-          <div className="logo"></div>
+          <div className="logo"><MdOutlinePalette className="paletteIcon" /></div>
           <div className="texts">
             <h3>Graphic Design</h3>
             <p>
