@@ -55,7 +55,7 @@ createRoot(document.getElementById("root")).render(
           <div className="heroImg">
             <div className="heroImg">
               <div className="heroImg">
-                <img src="../src/assets/heroImg.jpg" alt="" />
+                <img src="https://drive.google.com/file/d/19ag2Urth3MeaSfIlRdptDbBApMpuxmRy/view?usp=sharing" alt="" />
               </div>
             </div>
           </div>
