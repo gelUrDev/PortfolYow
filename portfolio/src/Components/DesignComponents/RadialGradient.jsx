@@ -7,7 +7,7 @@ function RadialGradient({ height, width }) {
         width: width,
         borderRadius: "100%",
         background:
-          "radial-gradient(circle, hsla(189, 94%, 34%, 0.090) 20%, hsla(223, 55%, 17%, 0.01) 70%)",
+          "radial-gradient(circle, hsla(189, 94%, 34%, 0.17) 20%, hsla(223, 55%, 17%, 0.01) 70%)",
       }}
     ></div>
   );
